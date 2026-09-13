@@ -1,90 +1,114 @@
-> [!NOTE]
-> **2025年05月17日：更多新功能，请参考：<https://github.com/PageXHub> 项目！**
+# WebStack-Hugo 网址导航
 
+一个基于 [Hugo](https://gohugo.io/) 的静态网址导航站点。本仓库包含主题、站点配置、导航数据和图标资源，可部署到 Cloudflare Pages 或其他静态网站托管服务。
 
-## 一个基于 Hugo 的静态响应式网址导航主题 
+本项目基于 [shenweiyan/WebStack-Hugo](https://github.com/shenweiyan/WebStack-Hugo) 部署使用；开源许可证见 [LICENSE](LICENSE)。
 
-本项目是基于**纯静态**的网址导航网站 [webstack.cc](https://github.com/WebStackPage/WebStackPage.github.io) 制作的 [Hugo](https://gohugo.io/) 主题，是一个基于 Hugo 的静态响应式网址导航主题。<br/>
+## 目录说明
 
-### 主题开源地址
+- `exampleSite/config.toml`：站点名称、域名、Logo、页脚及功能开关
+- `exampleSite/data/webstack.yml`：导航分类和网址条目
+- `exampleSite/data/headers.yml`：顶部导航内容
+- `exampleSite/data/friendlinks.yml`：友情链接
+- `static/assets/images/logos/`：网址图标
+- `layouts/`：Hugo 模板
 
-[**GitHub**](https://github.com/shenweiyan/WebStack-Hugo) | [**Gitee**](https://gitee.com/shenweiyan/WebStack-Hugo) | [**GitCode**](https://gitcode.com/shenweiyan/WebStack-Hugo)
+## 修改站点内容
 
-### 主题演示地址
+### 修改站点地址
 
-<https://webstack-demo.weiyan.cc/>
+发布到正式域名后，编辑 `exampleSite/config.toml` 的第一行：
 
-### 特色功能
-
-这是 Hugo 版 WebStack 主题。可以借助下面的平台直接托管部署，无需服务器。
-- [Webify](https://webify.cloudbase.net/) | [Netlify](https://app.netlify.com/) | [Cloudflare Pages](https://pages.cloudflare.com) | [Vercel](https://vercel.com) | [Github Pages](https://pages.github.com/)
-
-总体说一下特点：
-
-- 采用了一直以来最喜欢的 Hugo 部署方式，方便高效。
-- 主要的配置信息都集成到了 `config.toml`，一键完成各种自定义的配置。
-- 导航的各个信息都集成在 `data/webstack.yml` 文件中，方便后续增删改动。
+```toml
+baseURL = "https://你的域名/"
 ```
-- taxonomy: 科研办公
-  icon: fas fa-flask fa-lg
-  list:
-    - term: 生物信息
-      links:
-        - title: NCBI
-          logo: ncbi.jpg
-          url: https://www.ncbi.nlm.nih.gov/
-          description: National Center for Biotechnology Information.
-        - title: Bioconda
-          logo: bioconda.jpg
-          url: https://anaconda.org/bioconda/
-          description: "Bioconda :: Anaconda.org."
-    - term: 云服务器
-      links:
-        - title: 阿里云
-          logo: 阿里云.jpg
-          url: https://www.aliyun.com/
-          description: 上云就上阿里云。
-        - title: 腾讯云
-          logo: 腾讯云.jpg
-          url: https://cloud.tencent.com/
-          description: 产业智变，云启未来。
+
+例如：
+
+```toml
+baseURL = "https://example.com/"
 ```
-- 做了手机电脑自适应以及夜间模式。
-- 增加了搜索功能，以及下拉的热词选项（基于百度 API）。
-- 增加了一言、和风天气的 API。
 
-### 使用说明
+### 增加网址
 
-这是一个开源的公益项目，你可以拿来制作自己的网址导航，也可以做与导航无关的网站。
+在 `exampleSite/data/webstack.yml` 中增加条目：
 
-WebStack 有非常多的魔改版本，这是其中一个。如果你对本主题进行了一些个性化调整，欢迎在本项目留下你的 [分享](https://github.com/shenweiyan/WebStack-Hugo/issues/10)！
+```yaml
+- title: GitHub
+  logo: github.png
+  url: https://github.com/
+  description: 全球开发者协作平台。
+```
 
+将对应图标放到 `static/assets/images/logos/`；没有图标时可使用 `default.webp`。
 
-### 安装说明
+## Cloudflare Pages 部署
 
-关于 Windows/Linux 下详细的安装与使用说明，请参考文档《WebStack-Hugo | 一个静态响应式导航主题》。
+在 Cloudflare Dashboard 中选择 **Workers 和 Pages → 创建 → Pages → 连接 Git 仓库**，选择本仓库和 `main` 分支。
 
-- [链接1](https://weiyan.cc/tech/discussions-10/) | [链接2](https://github.com/shenweiyan/Digital-Garden/discussions/10)
+构建设置：
 
-### 感谢
+| 项目 | 值 |
+| --- | --- |
+| 框架预设 | 无 |
+| 构建命令 | `mkdir -p themes/WebStack-Hugo && cp -R layouts static themes/WebStack-Hugo/ && hugo --source exampleSite --themesDir ../themes --minify --baseURL https://你的项目.pages.dev/` |
+| 构建输出目录 | `exampleSite/public` |
+| 根目录 | 留空 |
+| 环境变量 | `HUGO_VERSION` = `0.122.0` |
 
-本主题的部分代码参考了以下几个开源项目，特此感谢。
+将命令中的 `https://你的项目.pages.dev/` 替换为 Cloudflare 分配给项目的 Pages 地址。例如：
 
-- [WebStackPage/WebStackPage.github.io](https://github.com/WebStackPage/WebStackPage.github.io)
-- [liutongxu/liutongxu.github.io](https://github.com/liutongxu/liutongxu.github.io)
-- [iplaycode/webstack-hugo](https://github.com/iplaycode/webstack-hugo)
+```sh
+mkdir -p themes/WebStack-Hugo && cp -R layouts static themes/WebStack-Hugo/ && hugo --source exampleSite --themesDir ../themes --minify --baseURL https://your-project.pages.dev/
+```
 
-感谢以下所有朋友对本主题所做出的贡献。  
-- [@yuanj82](https://github.com/yuanj82)        
-- [@yanbeiyinhanghang](https://github.com/yinhanghang)     
-- [@jetsung](https://github.com/jetsung)
+主题使用绝对资源链接。若仍保留原项目的 `baseURL`，浏览器会到原作者域名加载 CSS、JavaScript 和图片，导致页面没有样式或图片无法显示。
 
-### 赞赏
+### 绑定自定义域名
 
-如果你觉得本项目对你有所帮助，欢迎请作者喝杯热咖啡 >.<
+先确认 `*.pages.dev` 地址显示正常，再在 Pages 项目的“自定义域”中添加域名并完成 DNS 设置。绑定成功后，将构建命令中的 `--baseURL` 改为：
 
-![donate-wecaht-aliapy](https://kg.weiyan.cc/0000/img/donate.webp)
+```sh
+--baseURL https://你的正式域名/
+```
 
-### Star History
+然后重新部署一次。
 
-[![Star History Chart](https://api.star-history.com/svg?repos=shenweiyan/WebStack-Hugo&type=Date)](https://star-history.com/#shenweiyan/WebStack-Hugo&Date)
+### 触发重新部署
+
+Cloudflare Pages 已连接 Git 仓库时，每次推送到 `main` 都会自动部署：
+
+```sh
+git add README.md
+git commit -m "docs: update deployment guide"
+git push origin main
+```
+
+仅修改 Cloudflare 的构建设置不会重新构建旧版本。修改设置后，请在“部署”页面选择最新生产部署并点击“重试部署”，或向 `main` 推送一次新提交。
+
+## 本地预览
+
+安装 Hugo `0.122.0` 后，在仓库根目录执行：
+
+```sh
+mkdir -p themes/WebStack-Hugo
+cp -R layouts static themes/WebStack-Hugo/
+hugo --source exampleSite --themesDir ../themes
+hugo server --source exampleSite --themesDir ../themes
+```
+
+浏览器打开终端显示的本地地址即可预览。
+
+## 常见问题
+
+### 页面显示 `{{ partial ... }}`
+
+仓库源码被当作静态文件发布，Hugo 没有运行。检查 Pages 的构建命令和输出目录是否为上文的命令与 `exampleSite/public`。
+
+### 页面只有文字、没有样式和图片
+
+HTML 已生成，但资源链接指向了错误域名。检查构建命令中的 `--baseURL`，然后重新部署。
+
+### 推送后没有自动部署
+
+确认 Cloudflare Pages 的生产分支是 `main`、Git 集成状态正常，且本次推送确实进入了 `origin/main`。可在 Pages 的“部署”页面查看构建日志。

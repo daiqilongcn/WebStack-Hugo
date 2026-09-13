@@ -46,4 +46,4 @@ publishDir            = "public"				# 站点静态文件保存目录
     unsafe = true
 
 [params.footer]
-    copyright = '本站内容源自互联网，如有内容侵犯了你的权益，请联系删除相关内容。<br/>&copy; 2026 - {year} By [WebStack-Hugo](https://github.com/daiqilongcn/WebStack-Hugo) | [daiqilong.tech](https://daiqilong.tech)<br/>'
+    copyright = '本站内容源自互联网，如有内容侵犯了你的权益，请联系删除相关内容。<br/>&copy; 2026 - {year} By [WebStack-Hugo](https://github.com/daiqilongcn/WebStack-Hugo)<br/>'

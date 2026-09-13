@@ -45,19 +45,19 @@
       url: https://chatgpt.com/
       description: OpenAI 旗下的 AI 对话助手。
     - title: Grok
-      logo: https://grok.com/favicon.ico
+      logo: Grok.png
       url: https://grok.com/
       description: xAI 推出的 AI 对话助手。
     - title: Gemini
-      logo: https://gemini.google.com/favicon.ico
+      logo: Gemini.png
       url: https://gemini.google.com/
       description: Google 推出的 AI 对话助手。
     - title: 通义千问
-      logo: https://tongyi.aliyun.com/favicon.ico
+      logo: Qwen.png
       url: https://tongyi.aliyun.com/
       description: 阿里巴巴推出的 AI 大模型。
     - title: 豆包
-      logo: https://www.doubao.com/favicon.ico
+      logo: DouBao.png
       url: https://www.doubao.com/
       description: 字节跳动推出的 AI 对话助手。
 
@@ -578,7 +578,7 @@
           url: https://vercel.com/
           description: 前端部署与 Serverless 平台。
         - title: Supabase
-          logo: https://supabase.com/favicon.ico
+          logo: Supabase.png
           url: https://supabase.com/
           description: 开源后端即服务（数据库/认证/存储）。
 
@@ -597,7 +597,7 @@
           logo: 书栈网.jpg
           description: IT 互联网开源编程书籍免费阅读与下载。
         - title: Z-Library
-          logo: https://z-lib.org/favicon.ico
+          logo: z-library.png
           url: https://z-lib.org/
           description: 全球最大的数字图书馆之一。
     - term: 博客论坛

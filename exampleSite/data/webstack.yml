@@ -102,7 +102,7 @@
           url: https://www.caixin.com/
           description: 财经新闻与深度报道。
         - title: 金融时报
-          logo: https://www.ft.com/favicon.ico
+          logo: FT.png
           url: https://www.ft.com/
           description: 英国金融时报。
         - title: 经济学人
@@ -121,7 +121,7 @@
     - term: 财税金融
       links:
         - title: 央行外币汇率
-          logo: http://www.pbc.gov.cn/favicon.ico
+          logo: pbc.png
           url: http://www.pbc.gov.cn/zhengcehuobisi/125207/125217/125925/index.html
           description: 中国人民银行外币汇率。
         - title: 中国会计视野
@@ -147,7 +147,7 @@
           url: https://www.itjuzi.com/
           description: 创投数据库。
         - title: 投中网
-          logo: https://www.chinaventure.com.cn/favicon.ico
+          logo: CV.png
           url: https://www.chinaventure.com.cn/
           description: 创投资讯与研究。
         - title: 中基协

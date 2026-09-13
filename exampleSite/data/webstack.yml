@@ -172,7 +172,7 @@
           description: 家庭云|网盘|文件备份|资源分享。
         - title: 坚果云
           logo: 坚果云.png
-          usrl: https://www.jianguoyun.com/
+          url: https://www.jianguoyun.com/
           description: 坚果云官网。
     - term: 图标素材
       links:

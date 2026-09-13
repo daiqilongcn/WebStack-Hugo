@@ -60,6 +60,10 @@
       logo: DouBao.png
       url: https://www.doubao.com/
       description: 字节跳动推出的 AI 对话助手。
+    - title: Arena
+      logo: arena.png
+      url: https://arena.ai/
+      description: AI 模型竞技与对比平台。
 
 
 - taxonomy: 科研办公
@@ -389,26 +393,23 @@
           description: Abstract Fonts (13,866 free fonts).      
       
 
-- taxonomy: 云端开发
-  icon: fas fa-cloud fa-lg
-  links:
-    - title: Cloudflare
-      logo: https://www.cloudflare.com/favicon.ico
-      url: https://www.cloudflare.com/
-      description: 全球 CDN、DNS 与边缘计算平台。
-    - title: Vercel
-      logo: https://vercel.com/favicon.ico
-      url: https://vercel.com/
-      description: 前端部署与 Serverless 平台。
-    - title: Supabase
-      logo: Supabase.png
-      url: https://supabase.com/
-      description: 开源后端即服务（数据库/认证/存储）。
-
-
 - taxonomy: 开发设计
   icon: fas fa-tools fa-lg
   list: 
+    - term: 云端开发
+      links:
+        - title: Cloudflare
+          logo: https://www.cloudflare.com/favicon.ico
+          url: https://www.cloudflare.com/
+          description: 全球 CDN、DNS 与边缘计算平台。
+        - title: Vercel
+          logo: https://vercel.com/favicon.ico
+          url: https://vercel.com/
+          description: 前端部署与 Serverless 平台。
+        - title: Supabase
+          logo: Supabase.png
+          url: https://supabase.com/
+          description: 开源后端即服务（数据库/认证/存储）。
     - term: 图形创意
       links:
         - title: photoshop

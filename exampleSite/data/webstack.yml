@@ -74,6 +74,102 @@
       description: 全球最大的开源 AI 模型社区。
 
 
+- taxonomy: 新闻资讯
+  icon: far fa-newspaper fa-lg
+  list:
+    - term: 综合新闻
+      links:
+        - title: 有线电视新闻网
+          logo: https://www.cnn.com/favicon.ico
+          url: https://www.cnn.com/
+          description: 美国有线电视新闻网。
+        - title: 路透社
+          logo: https://www.reuters.com/favicon.ico
+          url: https://www.reuters.com/
+          description: 国际通讯社。
+        - title: 美联社
+          logo: https://apnews.com/favicon.ico
+          url: https://apnews.com/
+          description: 美国联合通讯社。
+        - title: 联合早报
+          logo: https://www.zaobao.com/favicon.ico
+          url: https://www.zaobao.com/
+          description: 新加坡中文报章。
+    - term: 财经媒体
+      links:
+        - title: 财新
+          logo: https://www.caixin.com/favicon.ico
+          url: https://www.caixin.com/
+          description: 财经新闻与深度报道。
+        - title: 金融时报
+          logo: https://www.ft.com/favicon.ico
+          url: https://www.ft.com/
+          description: 英国金融时报。
+        - title: 经济学人
+          logo: https://www.economist.com/favicon.ico
+          url: https://www.economist.com/
+          description: 英国时事周刊。
+        - title: 美联储
+          logo: https://www.federalreserve.gov/favicon.ico
+          url: https://www.federalreserve.gov/
+          description: 美国联邦储备委员会。
+
+
+- taxonomy: 财金法律
+  icon: fas fa-balance-scale fa-lg
+  list:
+    - term: 财税金融
+      links:
+        - title: 央行外币汇率
+          logo: http://www.pbc.gov.cn/favicon.ico
+          url: http://www.pbc.gov.cn/zhengcehuobisi/125207/125217/125925/index.html
+          description: 中国人民银行外币汇率。
+        - title: 中国会计视野
+          logo: https://www.esnai.com/favicon.ico
+          url: https://www.esnai.com/
+          description: 会计专业社区。
+        - title: 万得
+          logo: https://www.wind.com.cn/favicon.ico
+          url: https://www.wind.com.cn/
+          description: 国内主流金融数据终端。
+    - term: 创投券商
+      links:
+        - title: 东方财富
+          logo: https://www.eastmoney.com/favicon.ico
+          url: https://www.eastmoney.com/
+          description: 财经门户与证券资讯。
+        - title: 同花顺
+          logo: https://www.10jqka.com.cn/favicon.ico
+          url: https://www.10jqka.com.cn/
+          description: 证券行情与交易。
+        - title: IT桔子
+          logo: https://www.itjuzi.com/favicon.ico
+          url: https://www.itjuzi.com/
+          description: 创投数据库。
+        - title: 投中网
+          logo: https://www.chinaventure.com.cn/favicon.ico
+          url: https://www.chinaventure.com.cn/
+          description: 创投资讯与研究。
+        - title: 中基协
+          logo: https://www.amac.org.cn/favicon.ico
+          url: https://www.amac.org.cn/
+          description: 中国证券投资基金业协会，私募基金备案登记。
+    - term: 法律征信
+      links:
+        - title: 全国企业信用信息公示系统
+          logo: https://www.gsxt.gov.cn/favicon.ico
+          url: https://www.gsxt.gov.cn/
+          description: 企业信用信息查询。
+        - title: 天眼查
+          logo: https://www.tianyancha.com/favicon.ico
+          url: https://www.tianyancha.com/
+          description: 企业信息查询平台。
+        - title: 裁判文书网
+          logo: https://wenshu.court.gov.cn/favicon.ico
+          url: https://wenshu.court.gov.cn/
+          description: 中国裁判文书公开平台。
+
+
 - taxonomy: 科研办公
   icon: fas fa-flask fa-lg
   list:

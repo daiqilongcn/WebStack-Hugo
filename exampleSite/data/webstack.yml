@@ -35,12 +35,16 @@
       logo: X.png
       url: https://x.com/
       description: 全球社交媒体平台（原 Twitter）。
+    - title: 菜鸟教程
+      logo: https://www.runoob.com/favicon.ico
+      url: https://www.runoob.com
+      description: 编程基础教程。
 
 
 - taxonomy: 智能办公
-  icon: fas fa-robot fa-lg
+  icon: fas fa-briefcase fa-lg
   list:
-    - term: AI助手
+    - term: 人工智能
       links:
         - title: ChatGPT
           logo: chatgpt.png
@@ -54,6 +58,10 @@
           logo: Gemini.png
           url: https://gemini.google.com/
           description: Google 推出的 AI 对话助手。
+        - title: DeepSeek
+          logo: https://www.deepseek.com/favicon.ico
+          url: https://www.deepseek.com/
+          description: 深度求索推出的 AI 对话助手。
         - title: 通义千问
           logo: Qwen.png
           url: https://www.qianwen.com/
@@ -74,6 +82,38 @@
           logo: huggingface.png
           url: https://huggingface.co/
           description: 全球最大的开源 AI 模型社区。
+    - term: 网盘资源
+      links:
+        - title: 百度网盘
+          logo: 百度网盘.jpg
+          url: http://pan.baidu.com/
+          description: https://pan.baidu.com/.
+        - title: 阿里云盘
+          logo: 阿里云盘.png
+          url: https://www.aliyundrive.com/
+          description: 阿里云盘，你的数字世界。
+        - title: 天翼云盘
+          logo: 天翼云盘.jpg
+          url: https://cloud.189.cn/
+          description: 家庭云|网盘|文件备份|资源分享。
+        - title: 坚果云
+          logo: 坚果云.png
+          url: https://www.jianguoyun.com/
+          description: 坚果云官网。
+    - term: 云端开发
+      links:
+        - title: Cloudflare
+          logo: https://www.cloudflare.com/favicon.ico
+          url: https://www.cloudflare.com/
+          description: 全球 CDN、DNS 与边缘计算平台。
+        - title: Vercel
+          logo: https://vercel.com/favicon.ico
+          url: https://vercel.com/
+          description: 前端部署与 Serverless 平台。
+        - title: Supabase
+          logo: Supabase.png
+          url: https://supabase.com/
+          description: 开源后端即服务（数据库/认证/存储）。
     - term: 云服务器
       links:
         - title: 阿里云
@@ -196,6 +236,10 @@
           logo: https://www.zaobao.com/favicon.ico
           url: https://www.zaobao.com/
           description: 新加坡中文报章。
+        - title: 三联生活周刊
+          logo: https://www.lifeweek.com.cn/favicon.ico
+          url: https://www.lifeweek.com.cn/
+          description: 中国综合性文化生活周刊。
     - term: 财经媒体
       links:
         - title: 财新
@@ -214,6 +258,10 @@
           logo: https://www.federalreserve.gov/favicon.ico
           url: https://www.federalreserve.gov/
           description: 美国联邦储备委员会。
+        - title: 华尔街日报
+          logo: https://www.wsj.com/favicon.ico
+          url: https://www.wsj.com/
+          description: 美国财经日报。
     - term: 资讯书籍
       links:
         - title: 微信读书
@@ -230,6 +278,10 @@
           description: 全球最大的数字图书馆之一。
     - term: 博客论坛
       links:
+        - title: Wait But Why
+          url: https://waitbutwhy.com/
+          logo: https://waitbutwhy.com/favicon.ico
+          description: 著名深度长文博客。
         - title: Inoreader
           url: https://www.inoreader.com/
           logo: inoreader.jpg
@@ -348,24 +400,6 @@
 - taxonomy: 开发设计
   icon: fas fa-tools fa-lg
   list:
-    - term: 网盘资源
-      links:
-        - title: 百度网盘
-          logo: 百度网盘.jpg
-          url: http://pan.baidu.com/
-          description: https://pan.baidu.com/.
-        - title: 阿里云盘
-          logo: 阿里云盘.png
-          url: https://www.aliyundrive.com/
-          description: 阿里云盘，你的数字世界。
-        - title: 天翼云盘
-          logo: 天翼云盘.jpg
-          url: https://cloud.189.cn/
-          description: 家庭云|网盘|文件备份|资源分享。
-        - title: 坚果云
-          logo: 坚果云.png
-          url: https://www.jianguoyun.com/
-          description: 坚果云官网。
     - term: 图标素材
       links:
         - title: Iconfinder
@@ -554,20 +588,6 @@
           url: http://www.abstractfonts.com/
           logo: abstractfonts.png
           description: Abstract Fonts (13,866 free fonts).      
-    - term: 云端开发
-      links:
-        - title: Cloudflare
-          logo: https://www.cloudflare.com/favicon.ico
-          url: https://www.cloudflare.com/
-          description: 全球 CDN、DNS 与边缘计算平台。
-        - title: Vercel
-          logo: https://vercel.com/favicon.ico
-          url: https://vercel.com/
-          description: 前端部署与 Serverless 平台。
-        - title: Supabase
-          logo: Supabase.png
-          url: https://supabase.com/
-          description: 开源后端即服务（数据库/认证/存储）。
     - term: 图形创意
       links:
         - title: photoshop

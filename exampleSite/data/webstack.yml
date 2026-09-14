@@ -37,82 +37,87 @@
       description: 全球社交媒体平台（原 Twitter）。
 
 
-- taxonomy: 人工智能
+- taxonomy: 智能办公
   icon: fas fa-robot fa-lg
-  links:
-    - title: ChatGPT
-      logo: chatgpt.png
-      url: https://chatgpt.com/
-      description: OpenAI 旗下的 AI 对话助手。
-    - title: Grok
-      logo: Grok.png
-      url: https://grok.com/
-      description: xAI 推出的 AI 对话助手。
-    - title: Gemini
-      logo: Gemini.png
-      url: https://gemini.google.com/
-      description: Google 推出的 AI 对话助手。
-    - title: 通义千问
-      logo: Qwen.png
-      url: https://www.qianwen.com/
-      description: 阿里巴巴推出的 AI 大模型。
-    - title: 豆包
-      logo: DouBao.png
-      url: https://www.doubao.com/
-      description: 字节跳动推出的 AI 对话助手。
-    - title: Arena
-      logo: arena.png
-      url: https://arena.ai/
-      description: AI 模型竞技与对比平台。
-    - title: 魔塔社区
-      logo: modelscope.png
-      url: https://modelscope.cn/
-      description: 阿里巴巴开源模型社区。
-    - title: Hugging Face
-      logo: huggingface.png
-      url: https://huggingface.co/
-      description: 全球最大的开源 AI 模型社区。
-
-
-- taxonomy: 新闻资讯
-  icon: far fa-newspaper fa-lg
   list:
-    - term: 综合新闻
+    - term: AI助手
       links:
-        - title: 有线电视新闻网
-          logo: https://www.cnn.com/favicon.ico
-          url: https://www.cnn.com/
-          description: 美国有线电视新闻网。
-        - title: 路透社
-          logo: https://www.reuters.com/favicon.ico
-          url: https://www.reuters.com/
-          description: 国际通讯社。
-        - title: 美联社
-          logo: https://apnews.com/favicon.ico
-          url: https://apnews.com/
-          description: 美国联合通讯社。
-        - title: 联合早报
-          logo: https://www.zaobao.com/favicon.ico
-          url: https://www.zaobao.com/
-          description: 新加坡中文报章。
-    - term: 财经媒体
+        - title: ChatGPT
+          logo: chatgpt.png
+          url: https://chatgpt.com/
+          description: OpenAI 旗下的 AI 对话助手。
+        - title: Grok
+          logo: Grok.png
+          url: https://grok.com/
+          description: xAI 推出的 AI 对话助手。
+        - title: Gemini
+          logo: Gemini.png
+          url: https://gemini.google.com/
+          description: Google 推出的 AI 对话助手。
+        - title: 通义千问
+          logo: Qwen.png
+          url: https://www.qianwen.com/
+          description: 阿里巴巴推出的 AI 大模型。
+        - title: 豆包
+          logo: DouBao.png
+          url: https://www.doubao.com/
+          description: 字节跳动推出的 AI 对话助手。
+        - title: Arena
+          logo: arena.png
+          url: https://arena.ai/
+          description: AI 模型竞技与对比平台。
+        - title: 魔塔社区
+          logo: modelscope.png
+          url: https://modelscope.cn/
+          description: 阿里巴巴开源模型社区。
+        - title: Hugging Face
+          logo: huggingface.png
+          url: https://huggingface.co/
+          description: 全球最大的开源 AI 模型社区。
+    - term: 云服务器
       links:
-        - title: 财新
-          logo: https://www.caixin.com/favicon.ico
-          url: https://www.caixin.com/
-          description: 财经新闻与深度报道。
-        - title: 金融时报
-          logo: FT.png
-          url: https://www.ft.com/
-          description: 英国金融时报。
-        - title: 经济学人
-          logo: https://www.economist.com/favicon.ico
-          url: https://www.economist.com/
-          description: 英国时事周刊。
-        - title: 美联储
-          logo: https://www.federalreserve.gov/favicon.ico
-          url: https://www.federalreserve.gov/
-          description: 美国联邦储备委员会。
+        - title: 阿里云
+          logo: 阿里云.jpg
+          url: https://www.aliyun.com/
+          description: 上云就上阿里云。
+        - title: 腾讯云
+          logo: 腾讯云.webp
+          url: https://cloud.tencent.com/
+          description: 产业智变，云启未来。
+        - title: 华为云
+          logo: 华为云.png
+          url: https://www.huaweicloud.com/
+          description: 提供云计算服务+智能，见未来-华为云。
+        - title: 云筏科技
+          logo: 云筏.png
+          url: https://www.cloudraft.cn/
+          description: 你的生信科研好选择。
+        - title: 火山云
+          logo: huoshan.png
+          url: https://www.volcengine.com/
+          description: 字节跳动旗下的云服务平台。
+        - title: 青椒云
+          logo: 青椒云.jpg
+          url: https://www.qingjiaocloud.com/
+          description: 云桌面,一站式云电脑服务平台。
+    - term: 办公学习
+      links:
+        - title: 有道词典
+          logo: 有道词典.png
+          url: https://www.youdao.com/
+          description: 免费，即时的多语种在线翻译。
+        - title: 有道翻译
+          logo: 有道词典.png
+          url: http://fanyi.youdao.com/
+          description: 有道翻译。
+        - title: 谷歌翻译
+          logo: 谷歌翻译.jpg
+          url: https://translate.google.cn/
+          description: 谷歌翻译。
+        - title: ProcessOn
+          logo: ProcessOn.png
+          url: https://www.processon.com/
+          description: 免费在线作图、实时协作。
 
 
 - taxonomy: 财金法律
@@ -170,80 +175,118 @@
           description: 中国裁判文书公开平台。
 
 
-- taxonomy: 科研办公
-  icon: fas fa-flask fa-lg
+- taxonomy: 资讯学习
+  icon: far fa-newspaper fa-lg
   list:
-    - term: 生物信息
+    - term: 综合新闻
       links:
-        - title: NCBI
-          logo: ncbi.jpg
-          url: https://www.ncbi.nlm.nih.gov/
-          description: National Center for Biotechnology Information.
-        - title: Bioconda
-          logo: bioconda.jpg
-          url: https://anaconda.org/bioconda/
-          description: "Bioconda :: Anaconda.org."
-        - title: CPAN
-          logo: cpan.jpg
-          url: https://metacpan.org/
-          description: Search the CPAN.
-        - title: Galaxy Project
-          logo: galaxy_project.png
-          url: https://galaxyproject.org/
-          description: Galaxy Community Hub.
-        - title: R Project
-          logo: r-project.jpg
-          url: https://www.r-project.org/
-          description: https://www.r-project.org
-        - title: Bioconductor
-          logo: bioconductor.jpg
-          url: http://www.bioconductor.org/
-          description: http://www.bioconductor.org
-    - term: 云服务器
+        - title: 有线电视新闻网
+          logo: https://www.cnn.com/favicon.ico
+          url: https://www.cnn.com/
+          description: 美国有线电视新闻网。
+        - title: 路透社
+          logo: https://www.reuters.com/favicon.ico
+          url: https://www.reuters.com/
+          description: 国际通讯社。
+        - title: 美联社
+          logo: https://apnews.com/favicon.ico
+          url: https://apnews.com/
+          description: 美国联合通讯社。
+        - title: 联合早报
+          logo: https://www.zaobao.com/favicon.ico
+          url: https://www.zaobao.com/
+          description: 新加坡中文报章。
+    - term: 财经媒体
       links:
-        - title: 阿里云
-          logo: 阿里云.jpg
-          url: https://www.aliyun.com/
-          description: 上云就上阿里云。
-        - title: 腾讯云
-          logo: 腾讯云.webp
-          url: https://cloud.tencent.com/
-          description: 产业智变，云启未来。
-        - title: 华为云
-          logo: 华为云.png
-          url: https://www.huaweicloud.com/
-          description: 提供云计算服务+智能，见未来-华为云。
-        - title: 云筏科技
-          logo: 云筏.png
-          url: https://www.cloudraft.cn/
-          description: 你的生信科研好选择。
-        - title: 火山云
-          logo: huoshan.png
-          url: https://www.volcengine.com/
-          description: 字节跳动旗下的云服务平台。
-        - title: 青椒云
-          logo: 青椒云.jpg
-          url: https://www.qingjiaocloud.com/
-          description: 云桌面,一站式云电脑服务平台。
-    - term: 办公学习
+        - title: 财新
+          logo: https://www.caixin.com/favicon.ico
+          url: https://www.caixin.com/
+          description: 财经新闻与深度报道。
+        - title: 金融时报
+          logo: FT.png
+          url: https://www.ft.com/
+          description: 英国金融时报。
+        - title: 经济学人
+          logo: https://www.economist.com/favicon.ico
+          url: https://www.economist.com/
+          description: 英国时事周刊。
+        - title: 美联储
+          logo: https://www.federalreserve.gov/favicon.ico
+          url: https://www.federalreserve.gov/
+          description: 美国联邦储备委员会。
+    - term: 资讯书籍
       links:
-        - title: 有道词典
-          logo: 有道词典.png
-          url: https://www.youdao.com/
-          description: 免费，即时的多语种在线翻译。
-        - title: 有道翻译
-          logo: 有道词典.png
-          url: http://fanyi.youdao.com/
-          description: 有道翻译。
-        - title: 谷歌翻译
-          logo: 谷歌翻译.jpg
-          url: https://translate.google.cn/
-          description: 谷歌翻译。
-        - title: ProcessOn
-          logo: ProcessOn.png
-          url: https://www.processon.com/
-          description: 免费在线作图、实时协作。
-        
+        - title: 微信读书
+          url: https://weread.qq.com/
+          logo: 微信读书.jpg
+          description: 微信读书电脑版。
+        - title: 书栈网
+          url: https://www.bookstack.cn/
+          logo: 书栈网.jpg
+          description: IT 互联网开源编程书籍免费阅读与下载。
+        - title: Z-Library
+          logo: z-library.png
+          url: https://z-lib.org/
+          description: 全球最大的数字图书馆之一。
+    - term: 博客论坛
+      links:
+        - title: Inoreader
+          url: https://www.inoreader.com/
+          logo: inoreader.jpg
+          description: 重新掌控你的新闻订阅源。
+        - title: Hacker News
+          url: https://news.ycombinator.com/
+          logo: hacker-news.jpg
+          description: 一家关于计算机黑客和创业公司的社会化新闻网站。
+        - title: 经管之家
+          url: https://bbs.pinggu.org/
+          logo: 经管之家.jpg
+          description: 国内活跃的经济、管理、金融、统计在线教育和咨询网站。
+        - title: 阮一峰的网络日志
+          url: http://www.ruanyifeng.com/blog/
+          logo: 阮一峰.png
+          description: 阮一峰，科技爱好者周刊。
+    - term: 设计规范
+      links:
+        - title: Design Guidelines
+          url: http://designguidelines.co/
+          logo: designguidelines.png
+          description: Design Guidelines &mdash; The way products are built.
+        - title: Awesome design systems
+          url: https://github.com/alexpate/awesome-design-systems
+          logo: awesome_design_systems.png
+          description:  A collection of awesome design systems.
+        - title: Material Design
+          url: https://material.io/guidelines/
+          logo: Material_Design.png
+          description: Introduction - Material Design.
+        - title: Human Interface Guidelines
+          url: https://developer.apple.com/ios/human-interface-guidelines
+          logo: human_interface_guidelines.png
+          description: Human Interface Guidelines iOS.
+        - title: Photoshop Etiquette
+          url: http://viggoz.com/photoshopetiquette/
+          logo: photoshopetiquette.png
+          description: PS礼仪-WEB设计指南。
+    - term: 视频教程
+      links:
+        - title: Photoshop Lady
+          url: http://www.photoshoplady.com/
+          logo: PhotoshopLady.png
+          description: Your Favourite Photoshop Tutorials in One Place.
+        - title: doyoudo
+          url: http://doyoudo.com/
+          logo: doyoudo.png
+          description: 创意设计软件学习平台。
+        - title: 没位道
+          url: http://www.c945.com/web-ui-tutorial/
+          logo: web_ui_tutorial.png
+          description: WEB UI免费视频公开课。
+        - title: 慕课网
+          url: https://www.imooc.com/
+          logo: imooc.png
+          description: 程序员的梦工厂（有UI课程）。
+
 
 - taxonomy: 悠闲娱乐
   icon: fas fa-film fa-lg
@@ -300,10 +343,10 @@
           logo: blizzard.png
           url: https://www.blizzard.com/
           description: 暴雪娱乐官方游戏平台。
-   
-      
-- taxonomy: 素材资源
-  icon: far fa-folder-open fa-lg
+
+
+- taxonomy: 开发设计
+  icon: fas fa-tools fa-lg
   list:
     - term: 网盘资源
       links:
@@ -511,11 +554,6 @@
           url: http://www.abstractfonts.com/
           logo: abstractfonts.png
           description: Abstract Fonts (13,866 free fonts).      
-      
-
-- taxonomy: 开发设计
-  icon: fas fa-tools fa-lg
-  list: 
     - term: 云端开发
       links:
         - title: Cloudflare
@@ -705,81 +743,3 @@
           url: http://mustsee.earth/
           logo: mustsee.png
           description: Discover the world's most beautiful places at every opened tab.
-
-
-- taxonomy: 资讯学习
-  icon: fas fa-pencil-alt fa-lg
-  list: 
-    - term: 资讯书籍
-      links:
-        - title: 微信读书
-          url: https://weread.qq.com/
-          logo: 微信读书.jpg
-          description: 微信读书电脑版。
-        - title: 书栈网
-          url: https://www.bookstack.cn/
-          logo: 书栈网.jpg
-          description: IT 互联网开源编程书籍免费阅读与下载。
-        - title: Z-Library
-          logo: z-library.png
-          url: https://z-lib.org/
-          description: 全球最大的数字图书馆之一。
-    - term: 博客论坛
-      links:
-        - title: Inoreader
-          url: https://www.inoreader.com/
-          logo: inoreader.jpg
-          description: 重新掌控你的新闻订阅源。
-        - title: Hacker News
-          url: https://news.ycombinator.com/
-          logo: hacker-news.jpg
-          description: 一家关于计算机黑客和创业公司的社会化新闻网站。
-        - title: 经管之家
-          url: https://bbs.pinggu.org/
-          logo: 经管之家.jpg
-          description: 国内活跃的经济、管理、金融、统计在线教育和咨询网站。
-        - title: 阮一峰的网络日志
-          url: http://www.ruanyifeng.com/blog/
-          logo: 阮一峰.png
-          description: 阮一峰，科技爱好者周刊。
-    - term: 设计规范
-      links:
-        - title: Design Guidelines
-          url: http://designguidelines.co/
-          logo: designguidelines.png
-          description: Design Guidelines &mdash; The way products are built.
-        - title: Awesome design systems
-          url: https://github.com/alexpate/awesome-design-systems
-          logo: awesome_design_systems.png
-          description:  A collection of awesome design systems.
-        - title: Material Design
-          url: https://material.io/guidelines/
-          logo: Material_Design.png
-          description: Introduction - Material Design.
-        - title: Human Interface Guidelines
-          url: https://developer.apple.com/ios/human-interface-guidelines
-          logo: human_interface_guidelines.png
-          description: Human Interface Guidelines iOS.
-        - title: Photoshop Etiquette
-          url: http://viggoz.com/photoshopetiquette/
-          logo: photoshopetiquette.png
-          description: PS礼仪-WEB设计指南。
-    - term: 视频教程
-      links:
-        - title: Photoshop Lady
-          url: http://www.photoshoplady.com/
-          logo: PhotoshopLady.png
-          description: Your Favourite Photoshop Tutorials in One Place.
-        - title: doyoudo
-          url: http://doyoudo.com/
-          logo: doyoudo.png
-          description: 创意设计软件学习平台。
-        - title: 没位道
-          url: http://www.c945.com/web-ui-tutorial/
-          logo: web_ui_tutorial.png
-          description: WEB UI免费视频公开课。
-        - title: 慕课网
-          url: https://www.imooc.com/
-          logo: imooc.png
-          description: 程序员的梦工厂（有UI课程）。
-        

@@ -1,15 +1,28 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 108 40">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 40">
   <defs>
-    <linearGradient id="d5bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#60A5FA"/>
-      <stop offset="1" stop-color="#2563EB"/>
+    <linearGradient id="d5bg-mini2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3B82F6"/>
+      <stop offset="100%" stop-color="#1D4ED8"/>
     </linearGradient>
   </defs>
-  <rect width="40" height="40" rx="9" fill="url(#d5bg)"/>
-  <g transform="scale(0.625)" fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M 11 47 L 11 17 A 15 15 0 0 1 11 47"/>
-    <path d="M 54 17 L 36 17 L 36 34 A 9.61 9.61 0 1 0 54 34"/>
+  <rect x="4" y="4" width="32" height="32" rx="8" fill="url(#d5bg-mini2)"/>
+  <g fill="#FFFFFF" transform="translate(4, 4) scale(0.5)">
+    <path d="M12 16 H24 C31 16 36 21 36 32 C36 43 31 48 24 48 H12 V16 Z M20 23 V41 H23 C26.5 41 28.5 38 28.5 32 C28.5 26 26.5 23 23 23 H20 Z"/>
+    <path d="M52 16 H39 V30 H45.5 C48.5 30 51 32 51 35.5 C51 39 48.5 41 45 41 C42 41 40 39.5 39.5 37.5 H33 C33.5 43 38 47.5 45 47.5 C52.5 47.5 58 42.5 58 35.5 C58 29.5 53.5 24.5 46.5 24.5 H45 V22.5 H52 V16 Z"/>
   </g>
-  <circle cx="45" cy="37.4" r="2.6" fill="#FFFFFF" transform="scale(0.625)"/>
-  <text x="54" y="20" dy=".35em" font-family="'PingFang SC', 'Microsoft YaHei', 'Noto Sans SC', sans-serif" font-size="22" font-weight="600" letter-spacing="2" fill="#212529">导航</text>
+  <text x="46" y="27" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'PingFang SC', sans-serif" font-size="18" font-weight="700" fill="#0F172A" letter-spacing="1">D5<tspan font-weight="400" font-size="15" fill="#64748B" dx="4">导航</tspan></text>
+</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 40">
+  <defs>
+    <linearGradient id="d5bg-mini2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3B82F6"/>
+      <stop offset="100%" stop-color="#1D4ED8"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="32" height="32" rx="8" fill="url(#d5bg-mini2)"/>
+  <g fill="#FFFFFF" transform="translate(4, 4) scale(0.5)">
+    <path d="M12 16 H24 C31 16 36 21 36 32 C36 43 31 48 24 48 H12 V16 Z M20 23 V41 H23 C26.5 41 28.5 38 28.5 32 C28.5 26 26.5 23 23 23 H20 Z"/>
+    <path d="M52 16 H39 V30 H45.5 C48.5 30 51 32 51 35.5 C51 39 48.5 41 45 41 C42 41 40 39.5 39.5 37.5 H33 C33.5 43 38 47.5 45 47.5 C52.5 47.5 58 42.5 58 35.5 C58 29.5 53.5 24.5 46.5 24.5 H45 V22.5 H52 V16 Z"/>
+  </g>
+  <text x="46" y="27" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'PingFang SC', sans-serif" font-size="18" font-weight="700" fill="#0F172A" letter-spacing="1">D5<tspan font-weight="400" font-size="15" fill="#64748B" dx="4">导航</tspan></text>
 </svg>

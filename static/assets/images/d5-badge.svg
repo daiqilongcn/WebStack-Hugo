@@ -1,14 +1,18 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
   <defs>
-    <linearGradient id="d5bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#60A5FA"/>
-      <stop offset="1" stop-color="#2563EB"/>
+    <linearGradient id="d5bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3B82F6"/>
+      <stop offset="100%" stop-color="#1D4ED8"/>
     </linearGradient>
   </defs>
-  <rect width="64" height="64" rx="14" fill="url(#d5bg)"/>
-  <g fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M 11 47 L 11 17 A 15 15 0 0 1 11 47"/>
-    <path d="M 54 17 L 36 17 L 36 34 A 9.61 9.61 0 1 0 54 34"/>
+  <!-- 背景圆角卡片 -->
+  <rect width="64" height="64" rx="16" fill="url(#d5bg)"/>
+  
+  <!-- D5 现代几何字标 -->
+  <g fill="#FFFFFF">
+    <!-- 字母 D：饱满的几何圆角厚实字形 -->
+    <path d="M12 16 H24 C31 16 36 21 36 32 C36 43 31 48 24 48 H12 V16 Z M20 23 V41 H23 C26.5 41 28.5 38 28.5 32 C28.5 26 26.5 23 23 23 H20 Z"/>
+    <!-- 数字 5：清晰利落的几何切角 -->
+    <path d="M52 16 H39 V30 H45.5 C48.5 30 51 32 51 35.5 C51 39 48.5 41 45 41 C42 41 40 39.5 39.5 37.5 H33 C33.5 43 38 47.5 45 47.5 C52.5 47.5 58 42.5 58 35.5 C58 29.5 53.5 24.5 46.5 24.5 H45 V22.5 H52 V16 Z"/>
   </g>
-  <circle cx="45" cy="37.4" r="2.6" fill="#FFFFFF"/>
 </svg>

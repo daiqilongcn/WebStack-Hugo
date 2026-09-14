@@ -8,7 +8,7 @@
         content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <meta name="theme-color" content="#f9f9f9" />
     <title>{{ .Site.Title }}</title>
-    <link rel="shortcut icon" href="{{ absURL $.Site.Params.images.favicon }}" />
+    <link rel="shortcut icon" type="image/svg+xml" href="{{ absURL $.Site.Params.images.favicon }}" />
     <meta name="keywords" content="{{ .Site.Title }}" />
     {{ if $.Site.Params.seo.baiduSiteVer }}
     <meta name="baidu-site-verification" content="{{ $.Site.Params.seo.baiduSiteVer }}" />

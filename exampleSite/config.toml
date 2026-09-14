@@ -35,8 +35,8 @@ publishDir            = "public"				# 站点静态文件保存目录
 
 [params.images]
     favicon           = "assets/images/d5-favicon.svg"
-    searchImageL      = "assets/images/bg-dna.jpg"		# 搜索部分浅色背景图
-    searchImageD      = "assets/images/bg-dna.jpg"		# 搜索部分深色背景图
+    searchImageL      = "assets/images/prin.png"		# 搜索部分浅色背景图
+    searchImageD      = "assets/images/prin.png"		# 搜索部分深色背景图
     logoExpandLight   = "assets/images/d5-expand-dark-text.svg"
     logoExpandDark    = "assets/images/d5-expand-light-text.svg"
     logoCollapseLight = "assets/images/d5-badge.svg"

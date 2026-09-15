@@ -280,7 +280,7 @@
       links:
         - title: Wait But Why
           url: https://waitbutwhy.com/
-          logo: https://waitbutwhy.com/favicon.ico
+          logo: waitbutwhy.png
           description: 著名深度长文博客。
         - title: Inoreader
           url: https://www.inoreader.com/

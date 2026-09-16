@@ -19,6 +19,10 @@
       logo: github.png
       url: https://github.com/
       description: GitHub 开源社区。
+    - title: GitHub 中转
+      logo: github.png
+      url: https://daiqilong.us.ci/
+      description: GitHub 国内中转加速访问。
     - title: 知乎
       logo: 知乎.png
       url: https://www.zhihu.com/
@@ -334,10 +338,7 @@
           url: http://www.c945.com/web-ui-tutorial/
           logo: web_ui_tutorial.png
           description: WEB UI免费视频公开课。
-        - title: 慕课网
-          url: https://www.imooc.com/
-          logo: imooc.png
-          description: 程序员的梦工厂（有UI课程）。
+
 
 
 - taxonomy: 悠闲娱乐
@@ -418,10 +419,7 @@
           logo: iconarchive.png
           url: http://www.iconarchive.com/
           description: Search 590,912 free icons.
-        - title: FindIcons
-          logo: FindIcons.png
-          url: https://findicons.com/
-          description: Search through 300,000 free icons.
+
         - title: IcoMoonApp
           logo: IcoMoonApp.png
           url: https://icomoon.io/app/
@@ -518,10 +516,7 @@
           logo: sousucai.png
           url: http://so.ui001.com/
           description: 设计素材搜索聚合。
-        - title: PS 饭团网
-          logo: psefan.png
-          url: http://psefan.com/
-          description: 不一样的设计素材库！让自己的设计与众不同！
+
         - title: 素材中国
           logo: sccnn.png
           url: http://www.sccnn.com/

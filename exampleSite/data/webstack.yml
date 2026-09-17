@@ -19,10 +19,6 @@
       logo: github.png
       url: https://github.com/
       description: GitHub 开源社区。
-    - title: GitHub 中转
-      logo: github.png
-      url: https://daiqilong.us.ci/
-      description: GitHub 国内中转加速访问。
     - title: 知乎
       logo: 知乎.png
       url: https://www.zhihu.com/
@@ -128,10 +124,7 @@
           logo: 腾讯云.webp
           url: https://cloud.tencent.com/
           description: 产业智变，云启未来。
-        - title: 华为云
-          logo: 华为云.png
-          url: https://www.huaweicloud.com/
-          description: 提供云计算服务+智能，见未来-华为云。
+
         - title: 云筏科技
           logo: 云筏.png
           url: https://www.cloudraft.cn/

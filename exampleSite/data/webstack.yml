@@ -724,6 +724,9 @@
           url: https://www.gaoding.com
           logo: gaoding.png
           description: 免费在线抠图软件,图片快速换背景-抠白底图。
+        - title: ITDOG
+          url: https://www.itdog.cn/
+          description: 网络测速、Ping、DNS、路由追踪等一站式网络工具。
         
     - term: 谷歌插件
       links:

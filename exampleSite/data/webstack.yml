@@ -39,6 +39,10 @@
       logo: https://www.runoob.com/favicon.ico
       url: https://www.runoob.com
       description: 编程基础教程。
+    - title: Reddit
+      logo: Reddit.jpg
+      url: https://www.reddit.com/
+      description: 全球知名的社交新闻与讨论社区。
 
 
 - taxonomy: 智能办公
@@ -125,10 +129,10 @@
           url: https://cloud.tencent.com/
           description: 产业智变，云启未来。
 
-        - title: 云筏科技
-          logo: 云筏.png
-          url: https://www.cloudraft.cn/
-          description: 你的生信科研好选择。
+        - title: GreenCloud
+          logo: https://greencloudvps.com/favicon.ico
+          url: https://greencloudvps.com/
+          description: 高性价比海外 VPS 与云服务器服务商。
         - title: 火山云
           logo: huoshan.png
           url: https://www.volcengine.com/

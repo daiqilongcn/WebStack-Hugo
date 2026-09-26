@@ -226,7 +226,7 @@
           url: https://www.cnn.com/
           description: 美国有线电视新闻网。
         - title: 路透社
-          logo: https://www.reuters.com/favicon.ico
+          logo: reuters.jpg
           url: https://www.reuters.com/
           description: 国际通讯社。
         - title: 美联社
@@ -234,7 +234,7 @@
           url: https://apnews.com/
           description: 美国联合通讯社。
         - title: 联合早报
-          logo: https://www.zaobao.com/favicon.ico
+          logo: Zao.png
           url: https://www.zaobao.com/
           description: 新加坡中文报章。
         - title: 三联生活周刊
@@ -252,7 +252,7 @@
           url: https://www.ft.com/
           description: 英国金融时报。
         - title: 经济学人
-          logo: https://www.economist.com/favicon.ico
+          logo: Economist.png
           url: https://www.economist.com/
           description: 英国时事周刊。
         - title: 美联储
@@ -260,7 +260,7 @@
           url: https://www.federalreserve.gov/
           description: 美国联邦储备委员会。
         - title: 华尔街日报
-          logo: https://www.wsj.com/favicon.ico
+          logo: WSL.jpg
           url: https://www.wsj.com/
           description: 美国财经日报。
     - term: 资讯书籍

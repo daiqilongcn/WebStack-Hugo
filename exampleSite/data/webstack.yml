@@ -178,6 +178,14 @@
           logo: https://www.wind.com.cn/favicon.ico
           url: https://www.wind.com.cn/
           description: 国内主流金融数据终端。
+        - title: 税局政策法规库
+          logo: https://fgk.chinatax.gov.cn/favicon.ico
+          url: https://fgk.chinatax.gov.cn/
+          description: 国家税务总局政策法规库。
+        - title: 增值税发票查验平台
+          logo: https://inv-veri.chinatax.gov.cn/favicon.ico
+          url: https://inv-veri.chinatax.gov.cn/
+          description: 全国增值税发票在线查验。
     - term: 创投券商
       links:
         - title: 东方财富
@@ -214,6 +222,10 @@
           logo: https://wenshu.court.gov.cn/favicon.ico
           url: https://wenshu.court.gov.cn/
           description: 中国裁判文书公开平台。
+        - title: 中国庭审公开网
+          logo: https://tingshen.court.gov.cn/favicon.ico
+          url: https://tingshen.court.gov.cn/
+          description: 全国法院庭审直播公开平台。
 
 
 - taxonomy: 资讯学习

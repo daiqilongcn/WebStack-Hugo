@@ -3,10 +3,6 @@
 - taxonomy: 常用推荐
   icon: far fa-star
   links: 
-    - title: 语雀
-      logo: 语雀.webp
-      url: https://www.yuque.com/
-      description: 专业的云端知识库。
     - title: 开源中国
       logo: 开源中国.jpg
       url: https://www.oschina.net/
@@ -23,10 +19,6 @@
       logo: 知乎.png
       url: https://www.zhihu.com/
       description: 知乎社区。
-    - title: V2EX
-      logo: v2ex.jpg
-      url: https://www.v2ex.com/
-      description: V2EX 创意工作者的社区。
     - title: Read Something Great
       logo: readsomethinggreat.png
       url: https://www.readsomethinggreat.com/
@@ -74,6 +66,10 @@
           logo: DouBao.png
           url: https://www.doubao.com/
           description: 字节跳动推出的 AI 对话助手。
+        - title: Kimi
+          logo: https://www.kimi.com/favicon.ico
+          url: https://www.kimi.com/
+          description: 月之暗面推出的 AI 对话助手。
         - title: Arena
           logo: arena.png
           url: https://arena.ai/
@@ -104,6 +100,10 @@
           logo: 坚果云.png
           url: https://www.jianguoyun.com/
           description: 坚果云官网。
+        - title: 移动云盘
+          logo: https://m.mcloud.139.com/favicon.ico
+          url: https://yun.139.com/
+          description: 中国移动旗下的云存储网盘。
     - term: 云端开发
       links:
         - title: Cloudflare
@@ -159,6 +159,10 @@
           logo: ProcessOn.png
           url: https://www.processon.com/
           description: 免费在线作图、实时协作。
+        - title: 语雀
+          logo: 语雀.webp
+          url: https://www.yuque.com/
+          description: 专业的云端知识库。
 
 
 - taxonomy: 财金法律
@@ -347,6 +351,10 @@
           url: http://www.c945.com/web-ui-tutorial/
           logo: web_ui_tutorial.png
           description: WEB UI免费视频公开课。
+        - title: 中国大学MOOC
+          url: https://www.icourse163.org/
+          logo: https://www.icourse163.org/favicon.ico
+          description: 网易与高教社合办的大学慕课平台。
 
 
 
@@ -391,11 +399,11 @@
       links:
         - title: 百度贴吧
           logo: 百度贴吧.jpg
-          url: ttps://tieba.baidu.com/index.html
+          url: https://tieba.baidu.com/index.html
           description: 百度贴吧。
         - title: 三国杀一将成名
           logo: sanguosha.png
-          url: https://www.sanguosha.com/
+          url: https://x.sanguosha.com/
           description: 三国杀一将成名官方对战平台。
         - title: Steam
           logo: steam.png

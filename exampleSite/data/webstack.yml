@@ -23,14 +23,14 @@
       logo: readsomethinggreat.png
       url: https://www.readsomethinggreat.com/
       description: 随机推荐优质长文阅读。
-    - title: X
-      logo: X.png
-      url: https://x.com/
-      description: 全球社交媒体平台（原 Twitter）。
     - title: 菜鸟教程
       logo: https://www.runoob.com/favicon.ico
       url: https://www.runoob.com
       description: 编程基础教程。
+    - title: X
+      logo: X.png
+      url: https://x.com/
+      description: 全球社交媒体平台（原 Twitter）。
     - title: Reddit
       logo: Reddit.jpg
       url: https://www.reddit.com/
@@ -353,7 +353,7 @@
           description: WEB UI免费视频公开课。
         - title: 中国大学MOOC
           url: https://www.icourse163.org/
-          logo: https://www.icourse163.org/favicon.ico
+          logo: MOOC.jpg
           description: 网易与高教社合办的大学慕课平台。
 
 

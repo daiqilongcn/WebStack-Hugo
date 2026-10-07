@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="420" viewBox="0 0 1920 420" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">层叠弧线</title>
+  <desc id="desc">深蓝灰背景上的克制弧线，两侧有层次，中央留白。</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1920" y2="420" gradientUnits="userSpaceOnUse"><stop stop-color="#1b3048"/><stop offset=".46" stop-color="#17283d"/><stop offset="1" stop-color="#252a42"/></linearGradient>
+    <linearGradient id="leftLine" x1="0" y1="0" x2="760" y2="420" gradientUnits="userSpaceOnUse"><stop stop-color="#c6d9d7" stop-opacity=".32"/><stop offset="1" stop-color="#c6d9d7" stop-opacity=".02"/></linearGradient>
+    <linearGradient id="rightLine" x1="1920" y1="0" x2="1110" y2="420" gradientUnits="userSpaceOnUse"><stop stop-color="#edc36c" stop-opacity=".52"/><stop offset="1" stop-color="#edc36c" stop-opacity=".03"/></linearGradient>
+  </defs>
+  <rect width="1920" height="420" fill="url(#bg)"/>
+  <path d="M-140 388C91 112 351 56 632 130c238 63 331 28 450-138" stroke="#9ebdc8" stroke-opacity=".1" stroke-width="92"/>
+  <path d="M-110 424C117 154 365 101 624 175c233 66 323 29 448-143" stroke="#b8d0d0" stroke-opacity=".13" stroke-width="2"/>
+  <path d="M-70 424C146 180 368 138 608 201c220 57 328 28 461-132" stroke="#c6d9d7" stroke-opacity=".18" stroke-width="1.5"/>
+  <path d="M-28 424C165 206 369 174 593 226c218 49 330 27 461-123" stroke="url(#leftLine)" stroke-width="1.5"/>
+  <path d="M1970 46C1745 297 1508 365 1243 301c-211-51-319-38-443 79" stroke="#e2c57e" stroke-opacity=".07" stroke-width="82"/>
+  <path d="M1972 30C1750 277 1517 337 1255 280c-211-46-314-33-443 80" stroke="#f1d18a" stroke-opacity=".16" stroke-width="1.5"/>
+  <path d="M1954 64C1737 291 1509 348 1264 294c-205-43-313-28-430 77" stroke="url(#rightLine)" stroke-width="1.5"/>
+  <path d="M0 53h410M1510 367h410" stroke="#d5e0dc" stroke-opacity=".13"/>
+  <path d="M78 53v30m-15-15h30M1842 337v30m-15-15h30" stroke="#edc36c" stroke-opacity=".44"/>
+  <g fill="#d9e3df" fill-opacity=".38"><circle cx="376" cy="100" r="2"/><circle cx="1517" cy="322" r="2"/><circle cx="1660" cy="71" r="1.5"/></g>
+</svg>

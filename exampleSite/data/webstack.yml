@@ -246,7 +246,7 @@
           url: https://www.reuters.com/
           description: 国际通讯社。
         - title: 美联社
-          logo: https://apnews.com/favicon.ico
+          logo: ap.png
           url: https://apnews.com/
           description: 美国联合通讯社。
         - title: 联合早报

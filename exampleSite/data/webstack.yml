@@ -84,6 +84,10 @@
           description: 全球最大的开源 AI 模型社区。
     - term: 网盘资源
       links:
+        - title: 坚果云
+          logo: 坚果云.png
+          url: https://www.jianguoyun.com/
+          description: 坚果云官网。
         - title: 百度网盘
           logo: 百度网盘.jpg
           url: http://pan.baidu.com/
@@ -96,10 +100,6 @@
           logo: Quark.png
           url: https://pan.quark.cn/
           description: 夸克网盘，你的数字世界。
-        - title: 坚果云
-          logo: 坚果云.png
-          url: https://www.jianguoyun.com/
-          description: 坚果云官网。
         - title: 移动云盘
           logo: https://m.mcloud.139.com/favicon.ico
           url: https://yun.139.com/

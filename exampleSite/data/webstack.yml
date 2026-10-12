@@ -279,20 +279,6 @@
           logo: WSL.jpg
           url: https://www.wsj.com/
           description: 美国财经日报。
-    - term: 资讯书籍
-      links:
-        - title: 微信读书
-          url: https://weread.qq.com/
-          logo: 微信读书.jpg
-          description: 微信读书电脑版。
-        - title: 书栈网
-          url: https://www.bookstack.cn/
-          logo: 书栈网.jpg
-          description: IT 互联网开源编程书籍免费阅读与下载。
-        - title: Z-Library
-          logo: z-library.png
-          url: https://z-lib.org/
-          description: 全球最大的数字图书馆之一。
     - term: 博客论坛
       links:
         - title: Wait But Why
@@ -361,6 +347,48 @@
 - taxonomy: 悠闲娱乐
   icon: fas fa-film fa-lg
   list:
+    - term: 书籍阅读
+      links:
+        - title: 微信读书
+          url: https://weread.qq.com/
+          logo: 微信读书.jpg
+          description: 微信读书电脑版。
+        - title: 书栈网
+          url: https://www.bookstack.cn/
+          logo: 书栈网.jpg
+          description: IT 互联网开源编程书籍免费阅读与下载。
+        - title: Z-Library
+          logo: z-library.png
+          url: https://z-lib.org/
+          description: 全球最大的数字图书馆之一。
+        - title: The Marginalian
+          logo: https://www.themarginalian.org/favicon.ico
+          url: https://www.themarginalian.org/
+          description: 探索科学、艺术、哲学与诗歌的长文博客。
+        - title: Psyche
+          logo: https://psyche.co/favicon.ico
+          url: https://psyche.co/
+          description: 帮助理解自我、生活得更好的心理学与哲学杂志。
+        - title: Λ-Reading
+          logo: https://rizime.substack.com/favicon.ico
+          url: https://rizime.substack.com/
+          description: 认知与阅读通讯。
+        - title: Hooks Creative
+          logo: https://hooks-creative.com/favicon.ico
+          url: https://hooks-creative.com/
+          description: 聚焦创意设计与零售陈列的品牌杂志。
+        - title: The Prism
+          logo: https://www.gurwinder.blog/favicon.ico
+          url: https://www.gurwinder.blog/
+          description: 帮助理解数字时代的思考指南。
+        - title: dense discovery
+          logo: https://www.densediscovery.com/favicon.ico
+          url: https://www.densediscovery.com/
+          description: 精选设计、科技、文化与艺术内容的每周通讯。
+        - title: Collab Blog
+          logo: https://collabfund.com/favicon.ico
+          url: https://collabfund.com/blog/
+          description: Collaborative Fund 的投资与长期思考博客。
     - term: 影音视频
       links:
         - title: 腾讯视频

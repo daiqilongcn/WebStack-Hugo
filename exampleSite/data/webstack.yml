@@ -118,6 +118,10 @@
           logo: Supabase.png
           url: https://supabase.com/
           description: 开源后端即服务（数据库/认证/存储）。
+        - title: Resend
+          logo: https://resend.com/favicon.ico
+          url: https://resend.com/
+          description: 面向开发者的邮件 API 平台。
     - term: 云服务器
       links:
         - title: 阿里云

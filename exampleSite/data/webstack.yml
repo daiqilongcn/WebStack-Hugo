@@ -642,6 +642,10 @@
           url: https://www.itdog.cn/
           logo: itdog.png
           description: 网络测速、Ping、DNS、路由追踪等一站式网络工具。
+        - title: IP查询
+          url: https://ip.net.coffee/
+          logo: https://ip.net.coffee/favicon.ico
+          description: 查询 IP 地址、地理位置与网络分流。
         
     - term: 谷歌插件
       links:

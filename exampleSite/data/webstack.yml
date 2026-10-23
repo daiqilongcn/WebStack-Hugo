@@ -480,8 +480,6 @@
           logo: fontawesomeicon.png
           url: https://fontawesome.com/icons/
           description: The complete set of 675 icons in Font Awesome.
-    - term: 图标设计
-      links:
         - title: iOS Icon Gallery
           logo: iosicongallery.png
           url: http://iosicongallery.com/

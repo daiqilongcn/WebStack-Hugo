@@ -123,7 +123,7 @@
           url: https://resend.com/
           description: 面向开发者的邮件 API 平台。
         - title: DNSHE
-          logo: https://dnshe.com/favicon.ico
+          logo: DNSHE.png
           url: https://dnshe.com/
           description: 免费域名注册与 DNS 解析服务。
     - term: 云服务器

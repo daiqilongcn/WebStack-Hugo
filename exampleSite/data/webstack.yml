@@ -195,7 +195,7 @@
           url: https://fgk.chinatax.gov.cn/
           description: 国家税务总局政策法规库。
         - title: 增值税发票查验平台
-          logo: https://inv-veri.chinatax.gov.cn/favicon.ico
+          logo: https://inv-veri.chinatax.gov.cn/fpcygzfw/favicon.ico
           url: https://inv-veri.chinatax.gov.cn/
           description: 全国增值税发票在线查验。
     - term: 创投券商

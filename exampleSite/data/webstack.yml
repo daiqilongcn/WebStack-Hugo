@@ -108,7 +108,7 @@
       links:
         - title: Cloudflare
           logo: https://www.cloudflare.com/favicon.ico
-          url: https://www.cloudflare.com/
+          url: https://www.cloudflare.com/zh-cn/
           description: 全球 CDN、DNS 与边缘计算平台。
         - title: Vercel
           logo: https://vercel.com/favicon.ico

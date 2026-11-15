@@ -70,6 +70,10 @@
           logo: https://www.kimi.com/favicon.ico
           url: https://www.kimi.com/
           description: 月之暗面推出的 AI 对话助手。
+        - title: WorkBuddy
+          logo: https://assets.workbuddy.cn/web/workbuddy/8e036eb06f87c6b08437546b3cbd58e60af45b10/assets/logo.svg
+          url: https://www.workbuddy.cn/
+          description: 腾讯云推出的 AI Agent 办公工具。
         - title: Arena
           logo: arena.png
           url: https://arena.ai/

@@ -153,10 +153,10 @@
           logo: huoshan.png
           url: https://www.volcengine.com/
           description: 字节跳动旗下的云服务平台。
-        - title: 青椒云
-          logo: 青椒云.jpg
-          url: https://www.qingjiaocloud.com/
-          description: 云桌面,一站式云电脑服务平台。
+        - title: RackNerd
+          logo: RackNerd.png
+          url: https://www.racknerd.com/
+          description: 全球高性价比 VPS、独立服务器与主机托管服务商。
     - term: 办公学习
       links:
         - title: 有道词典

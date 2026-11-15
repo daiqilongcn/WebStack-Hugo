@@ -72,8 +72,12 @@
           description: 月之暗面推出的 AI 对话助手。
         - title: WorkBuddy
           logo: https://assets.workbuddy.cn/web/workbuddy/8e036eb06f87c6b08437546b3cbd58e60af45b10/assets/logo.svg
-          url: https://www.workbuddy.cn/
+          url: https://www.workbuddy.cn/app
           description: 腾讯云推出的 AI Agent 办公工具。
+        - title: CodeBuddy
+          logo: https://download.codebuddy.ai/web/agents/a5360110007010f52438905c0d31d0e5571da4f7/assets/logo.svg
+          url: https://www.codebuddy.ai/agents
+          description: 腾讯云推出的 AI 编程助手。
         - title: Arena
           logo: arena.png
           url: https://arena.ai/

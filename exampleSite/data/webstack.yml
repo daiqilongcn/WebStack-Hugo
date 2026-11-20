@@ -153,10 +153,10 @@
           logo: huoshan.png
           url: https://www.volcengine.com/
           description: 字节跳动旗下的云服务平台。
-        - title: RackNerd
-          logo: RackNerd.png
-          url: https://www.racknerd.com/
-          description: 全球高性价比 VPS、独立服务器与主机托管服务商。
+        - title: 谷歌云
+          logo: https://www.gstatic.com/images/branding/product/2x/google_cloud_96dp.png
+          url: https://cloud.google.com/
+          description: Google Cloud，全球领先的云计算与 AI 平台。
     - term: 办公学习
       links:
         - title: 有道词典
